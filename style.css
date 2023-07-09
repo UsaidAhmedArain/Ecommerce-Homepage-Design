@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kumb Sans";
+}
+#header{
+    display: flex;
+    margin: 8px;
+    border-bottom: 3px solid hsl(223, 64%, 98%);
+    padding: 8px;
+}
+#logo{
+    margin: 12px;
+    cursor: pointer;
+}
+#menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+#menu ul li a{
+    display: inline;
+    text-decoration: none;
+    color:hsl(219, 9%, 45%);
+}
+#menu ul li a:hover{
+    color: black;
+    border-bottom: 2px solid orange;
+    border-width: 3px;
+}
+#cart{
+    margin: 13px;
+    position: relative;
+    left: 605px;
+    cursor:pointer;
+}
+#pic{
+    margin: 3px;
+    position: relative;
+    left: 630px;
+    cursor: pointer;
+}
+#product{
+    margin: 40px;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+}
+#product img{
+    border-radius: 15px;
+}
+#previous{
+    display: inline;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top: 170px;
+    right: 379px;
+    cursor: pointer;
+}
+#next{
+    display: inline;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top: 170px;
+    right: -19px;
+    cursor: pointer;
+}
+#product-info{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 76px;
+    position: relative;
+    bottom: 20px;
+    left: 95px;
+    padding: 5px;
+    cursor: pointer;
+}
+#product-info img{
+    border-radius: 12px;
+}
+#first {
+    border: 3px solid orange;
+    border-radius: 15px;
+}
+#product-info img:hover{
+    opacity: 0.5;
+}
+#content{
+    position: relative;
+    bottom: 498px;
+    left: 621px;
+    display: inline-block;
+    margin:20px;
+}
+#content h2{
+    display: inline;
+}
+#sale-price{
+    width: 30px;
+    display: inline;
+    margin: 10px;
+    background-color:hsl(26, 68%, 91%);
+    color: orange;
+    position: relative;
+    bottom: 2px;
+    text-align: center;
+}
+#sale-price span{
+    font-weight: 900;
+    padding: 2px;
+}
+#btn button{
+    height:30px;
+    border: none;
+    width: 130px;
+    cursor: pointer;
+    padding:0 35px;
+    background-color:hsl(223, 64%, 98%);
+}
+#img1{
+    position: relative;
+    right:30px;
+    bottom: 3px;
+}
+#btn input{
+    border: none;
+    width: 15px;
+    font-weight: 700;
+    text-align: center;    
+    background-color:hsl(223, 64%, 98%);
+}
+#img2{
+    position: relative;
+    left:30px;
+}
+#main-btn{
+    background-color:rgb(255, 80, 16);
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding:10px 60px;
+    position: relative;
+    left: 142px;
+    bottom: 33px;
+}
+#main-btn:hover{
+    background-color: orange;
+}
+#cart-icon{
+    color:hsl(223, 64%, 98%);
+    position: relative;
+    right: 6px;
+}
+#main-btn span{
+    font-size: 14px;
+    color:hsl(223, 64%, 98%);
+}
